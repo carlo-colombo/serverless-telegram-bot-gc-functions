@@ -87,7 +87,7 @@ curl -X POST \
        "text": "hello world"
      }
    }' \
-   http://localhost:8010/litapp-165019/us-central1/echoBot
+   http://localhost:8010/PROJECT_ID/us-central1/echoBot
 
 # To tail logs
 watch functions logs read
