@@ -1,11 +1,9 @@
-# Telegram Bot on Google Cloud Functions
-
-
+# Serverless Telegram Bot on Google Cloud Functions
 
 ### Prerequisites
 * Goole Cloud account and a project. https://cloud.google.com/resource-manager/docs/creating-managing-projects
 * Enable Google Cloud Functions and RuntimeConfig API from the API manager
-* Get a telegram bot token, [ask it to the BotFather](https://telegram.me/BotFather)
+* Get a telegram bot token, ask it to the [BotFather](https://telegram.me/BotFather)
 
 #### Warning
 Both Google Cloud Functions and RuntimeConfig are both still in beta.
