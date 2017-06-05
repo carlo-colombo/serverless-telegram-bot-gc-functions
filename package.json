@@ -1,0 +1,21 @@
+{
+    "name": "serverless-telegram-bot-gc-functions",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "f-start": "functions start",
+        "f-stop": "functions stop",
+        "f-deploy": "functions deploy echoBot --trigger-http"
+    },
+    "author": "Carlo Colombo",
+    "license": "ISC",
+    "devDependencies": {
+        "@google-cloud/functions-emulator": "^1.0.0-alpha.19"
+    },
+    "dependencies": {
+        "cloud-functions-runtime-config": "^0.1.1",
+        "request": "^2.81.0",
+        "request-promise-native": "^1.0.4"
+    }
+}
