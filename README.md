@@ -2,11 +2,12 @@
 
 ### Prerequisites
 * Goole Cloud account and a project. https://cloud.google.com/resource-manager/docs/creating-managing-projects
-* Enable Google Cloud Functions and RuntimeConfig API from the API manager
-* Get a telegram bot token, ask it to the [BotFather](https://telegram.me/BotFather)
+* Enable Google Cloud Functions and RuntimeConfig API from the API manager.
+* Get a telegram bot token, ask it to the [BotFather](https://telegram.me/BotFather).
 
 #### Warning
-Both Google Cloud Functions and RuntimeConfig are both still in beta.
+* Both Google Cloud Functions and RuntimeConfig are both still in beta.
+* Even if the GCP free tier is quite inclusive some costs can be billed.
 
 ### The token
 
@@ -98,7 +99,7 @@ watch functions logs read
 Before deploy the function is required to create a Cloud Storage bucket where the function will be stored
 
 ```bash
-gsutil mb gs://unique-bucket-name
+gsutil mb -c regional -l us-central1 gs://unique-bucket-name
 
 gcloud beta functions deploy function_name \
   --trigger-http \

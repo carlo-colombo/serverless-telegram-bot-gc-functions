@@ -9,7 +9,7 @@
         "f-deploy": "functions deploy echoBot --trigger-http"
     },
     "author": "Carlo Colombo",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "@google-cloud/functions-emulator": "^1.0.0-alpha.19"
     },
